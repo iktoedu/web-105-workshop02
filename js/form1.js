@@ -1,4 +1,4 @@
-(function () {
+(function ($) {
     var submitActor = null;
     var numUses = 0;
 
@@ -30,4 +30,4 @@
             return false;
         });
     });
-})();
+})(jQuery);
