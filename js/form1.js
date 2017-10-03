@@ -1,7 +1,7 @@
 var submitActor = null;
 var numUses = 0;
 
-window.onload = function () {
+onLoadHandlers[onLoadHandlers.length] = function () {
     document.getElementById('form1-add').onclick = function () {
         submitActor = this;
     };
